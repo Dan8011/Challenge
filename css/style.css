@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(44, 44, 44);
+}
+
+
+.pozadi{
+    min-height: 800px;
+}
+
+.kruh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:0px;
+    padding-top: 200px;
+    padding-left: 300px;
+}
+
+.kruh2{
+    display: flex;
+    justify-content: center;
+    min-width:0px;
+    padding-right: 500px;
+}
+
+.popis{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    color: white;
+    
+}
+
+h1{
+    width: 197px;
+    height: 29px;
+    font-size: 24px;
+    letter-spacing: 7px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.karta{
+    border-radius: 30px;
+    width: 296px;
+    height: 173px;
+    background-color: white;
+}
+
+   
