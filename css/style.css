@@ -1,32 +1,47 @@
 body{
     background-color: rgb(44, 44, 44);
+
 }
 
 
 .pozadi{
     min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 600px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kruh2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:0px;
+    position: absolute;
+    top: 394px;
+    left: 81px;
 }
 
 .kruh1{
     display: flex;
     justify-content: center;
-    align-items: center;
     min-width:0px;
-    padding-top: 200px;
-    padding-left: 300px;
-}
-
-.kruh2{
-    display: flex;
-    justify-content: center;
-    min-width:0px;
-    padding-right: 500px;
+    position: absolute;
+    top: 237px;
+    right: 78px;
 }
 
 .popis{
     display: flex;
     justify-content: center;
-    padding-top: 150px;
+    position: absolute;
+    top: 550px;
+    left: 208px;
     color: white;
     
 }
@@ -41,10 +56,26 @@ h1{
 }
 
 .karta{
+    right: 100px;
     border-radius: 30px;
+    border-style: inset;
+    border-color: rgb(125, 127, 129);
+    border-width: 0.1px;
     width: 296px;
     height: 173px;
-    background-color: white;
+    background-color: rgb(134, 134, 134/100%);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    opacity: 100%;
+    overflow: hidden;
 }
 
-   
+.veverka{
+    position: absolute; 
+}
+
+.master{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
